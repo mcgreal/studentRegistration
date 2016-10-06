@@ -5,8 +5,8 @@ import junit.framework.TestCase;
 public class StudentTest extends TestCase {
 
 	public void testGetUsername() {
-		String correct="Ciarán21";
-		String test=Student.getUsername("Ciarán","21");
+		String correct="Ciaran21";
+		String test=Student.getUsername("Ciaran","21");
 		assertEquals(correct,test);
 	}
 }
