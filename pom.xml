@@ -14,15 +14,20 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <build>
+  <reporting>
   <plugins>
      <plugin>
        <groupId>org.codehaus.mojo</groupId>
        <artifactId>cobertura-maven-plugin</artifactId>
        <version>2.7</version>
+       <configuration>
+       	<format>html
+       	</format>
+       </configuration>
      </plugin>
      </plugins>
-  </build>
+  </reporting>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
